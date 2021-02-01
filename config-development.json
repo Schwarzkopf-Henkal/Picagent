@@ -1,0 +1,7 @@
+{
+    "CDN_URL":"String",
+    "SecretId":"String",
+    "SecretKey":"String",
+    "Bucket":"String",
+    "Region":"String"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Picagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Schwarzkopf Henkal",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.2.1"
+  },
+  "dependencies": {
+    "cos-js-sdk-v5": "^1.1.10",
+    "iclipboard": "^1.0.1",
+    "path": "^0.12.7"
+  }
+}

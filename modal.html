@@ -1,0 +1,64 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+    body {
+        font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+        color: #fff;
+        background-color: #8aba87;
+        text-align: center;
+    }
+    
+    h3 {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 30%;
+        left: 50%;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+    }
+    
+    .close {
+        color: white;
+        opacity: 0.7;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 12px;
+        text-decoration: none;
+    }
+    #field{
+        font-size: 16px;
+        font-weight: 400;
+        position: relative;
+        overflow: auto;
+    }
+    .resu_{
+        cursor: pointer;
+        border-radius: 2px;
+        background-color:cadetblue;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h3>
+        COS_utils
+        <div id="field">
+        </div>
+    </h3>
+    <!-- <a class="close" href="javascript:BrowseFile()"></a> -->
+    <label for="BrowseFile" class="close" style="cursor:pointer;">
+        点击或拖动文件至此处
+        <input type="file" class='close' style="display: none;" id='BrowseFile' multiple='multiple'>
+    </label>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./renderer.js"></script>
+    <script>if (window.module) module = window.module;</script>
+</body>
